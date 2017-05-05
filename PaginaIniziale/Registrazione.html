@@ -10,100 +10,108 @@
 </head>
 
 <body>
-    <header class="logo page-display-container">
+    <header class="page-dark-red page-margin-bottom page-center">
+        <h1 style="font-family:font73406;"><a href="Home.html" title="Home"><img src="unicam-scudo.png" style="width: 30px" class="page-margin-top"></a> UNICAM</h1>
     </header>
+    <div class="page-container page-justify page-margin-bottom" id="parteSuperiore">
+            <h3 class="page-center bold">Registrazione Web </h3>
+                <p> Attraverso la seguente pagina potrai procedere con la registrazione al sito. Al termine ti
+                saranno consegnati un nome utente e un codice di accesso che ti permetteranno di accedere al sistema per
+                modificare i tuoi dati e accedere ai servizi offerti. Le informazioni che ti verranno richieste le trovi
+                nell`elenco qui sotto: * Dati anagrafici * Codice Fiscale * Indirizzi: Residenza e Domicilio * Recapito:
+                email, numero cellulare </p>
+    </div>
     <div class="page-container">
         <div>
             <div class="page-third page-card-4" id="colonnaSx">
                 <ul class="page-margin-right">
-                    <li> <a href="Home.html"> Home </a> </li>
                     <li> <a href="Login.html"> Login </a> </li>
                     <li> <a href="RecuperoPassword.html"> Recupero password </a></li>
                 </ul>
             </div>
             <div class="page-container page-twothird">
-            <div class="page-left-align  page-card-4 div-center" id="colonnaDx">
-                <div id="ruolo" class="page-input">
-                    <h6> Ruolo all'interno dell'universita':</h6>
-                    <select name="ruolo">
+                <div class="page-left-align  page-card-4 div-center" id="colonnaDx">
+                    <div id="ruolo" class="page-input">
+                        <h6> Ruolo all'interno dell'universita':</h6>
+                        <select name="ruolo">
                         <option value="Studente">Studente</option>
                         <option value="Docente">Docente</option>
                         <option value="PTA">PTA</option>
                         </select>
-                </div>
-                <br>
-                <div class="page-input">
-                    <form>
-                        <div>
-                            <label for="name">Nome:</label>
-                            <br>
-                            <input id="nome" type="text">
-                        </div>
-                        <br>
-                        <div>
-                            <label for="surname">Cognome:</label>
-                            <br>
-                            <input type="text" id="cognome">
-                        </div>
-                        <br>
-                        <div>
-                            <label for="cf">Codice Fiscale:</label>
-                            <br>
-                            <input type="text" id="cf">
-                        </div>
-                        <br>
-                        <div>
-                            <div class="page-half">
-                                <label for="address">Indirizzo: </label>
+                    </div>
+                    <br>
+                    <div class="page-input">
+                        <form>
+                            <div>
+                                <label for="name">Nome:</label>
                                 <br>
-                                <input type="text" id="indirizzo">
+                                <input id="nome" type="text">
                             </div>
-                            <div class="page-left-align">
-                                <label for="civic_n"> N. Civico: </label>
+                            <br>
+                            <div>
+                                <label for="surname">Cognome:</label>
                                 <br>
-                                <input style="width: 20%" type="number" id="ncivico">
+                                <input type="text" id="cognome">
                             </div>
-                        </div>
-                        <br>
-                        <div>
-                            <label for="city">Citta': </label>
                             <br>
-                            <input type="text" id="città">
-                        </div>
-                        <br>
-                        <div>
-                            <label for="cap">CAP: </label>
+                            <div>
+                                <label for="cf">Codice Fiscale:</label>
+                                <br>
+                                <input type="text" id="cf">
+                            </div>
                             <br>
-                            <input type="number" id="cap">
-                        </div>
-                        <br>
-                        <div>
-                            <label for="phone_number">Numero Cellulare:</label>
+                            <div>
+                                <div class="page-half">
+                                    <label for="address">Indirizzo: </label>
+                                    <br>
+                                    <input type="text" id="indirizzo">
+                                </div>
+                                <div class="page-left-align">
+                                    <label for="civic_n"> N. Civico: </label>
+                                    <br>
+                                    <input style="width: 20%" type="number" id="ncivico">
+                                </div>
+                            </div>
                             <br>
-                            <input type="tel" id="phone_n">
-                        </div>
-                        <br>
-                        <div>
-                            <label for="email">e-mail:</label>
+                            <div>
+                                <label for="city">Citta': </label>
+                                <br>
+                                <input type="text" id="città">
+                            </div>
                             <br>
-                            <input type="email" id="email">
-                        </div>
-                    </form>
-                </div>
-                <br>
-                <div id="trattamentoDati">
-                  <span>  Acconsenti all'informativa sul trattamento dei dati personali <a href="http://www.camera.it/parlam/leggi/deleghe/03196dl.htm"
+                            <div>
+                                <label for="cap">CAP: </label>
+                                <br>
+                                <input type="number" id="cap">
+                            </div>
+                            <br>
+                            <div>
+                                <label for="phone_number">Numero Cellulare:</label>
+                                <br>
+                                <input type="tel" id="phone_n">
+                            </div>
+                            <br>
+                            <div>
+                                <label for="email">e-mail:</label>
+                                <br>
+                                <input type="email" id="email">
+                            </div>
+                        </form>
+                    </div>
+                    <br>
+                    <div id="trattamentoDati">
+                        <span>  Acconsenti all'informativa sul trattamento dei dati personali <a href="http://www.camera.it/parlam/leggi/deleghe/03196dl.htm"
                         target=”_blank”>(leggi)</a> </span>
-                    <input type="checkbox" id="datiPrivacy">
-                    <br> <br>
-                    <span> Altro </span>
-                    <input type="checkbox" id="altro">
+                        <input type="checkbox" id="datiPrivacy">
+                        <br> <br>
+                        <span> Altro </span>
+                        <input type="checkbox" id="altro">
+                    </div>
+                    <br>
+                    <div id="InvioDati">
+                        <input type="submit" id="button" value="Invia">
+                    </div>
                 </div>
-                <br>
-                <div id="InvioDati">
-                    <input type="submit" id="button" value="Invia">
-                </div>
-            </div>
             </div>
         </div>
     </div>
