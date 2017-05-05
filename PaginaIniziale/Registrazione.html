@@ -6,7 +6,7 @@
     <style>
         @import url(Stile.css);
     </style>
-            <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/x-png" href="unicam-scudo.png" />
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +17,7 @@
     <div class="page-container">
         <div class="rettangolo">
             <header id="LogoUnicam" class="page-center">
-             <a href="Home.html">  <img src="logoUnicam.jpg" style="width: 100%"> </a>
+                <a href="Home.html">  <img src="logoUnicam.jpg" style="width: 100%"> </a>
             </header>
             <div class="page-row" style="width: 100%">
                 <div class="page-center">
@@ -31,12 +31,12 @@
                 <div id="campi" class="page-panel bordiNoTop page-center">
                     <form class="page-margin-bottom page-margin-top">
                         <div class="page-row">
-                        <div class="page-half page-left">
-                            <input id="nome" type="text" placeholder="Nome">
-                        </div>
-                        <div class="page-half page-right">
-                            <input type="text" id="cognome" placeholder="Cognome">
-                        </div>
+                            <div class="page-half page-left">
+                                <input id="nome" type="text" placeholder="Nome">
+                            </div>
+                            <div class="page-half page-right">
+                                <input type="text" id="cognome" placeholder="Cognome">
+                            </div>
                         </div>
                         <div class="page-margin-top">
                             <input type="text" id="cf" placeholder="Codice Fiscale">
@@ -54,20 +54,22 @@
                             <input type="number" id="cap" placeholder="CAP">
                         </div>
                         <div class="page-row">
-                        <div class="page-margin-top page-twothird page-left">
-                            <input type="text" id="indirizzo" placeholder="Indirizzo">
+                            <div class="page-margin-top page-twothird page-left">
+                                <input type="text" id="indirizzo" placeholder="Indirizzo">
+                            </div>
+                            <div class="page-margin-top page-third page-right">
+                                <input type="text" id="numero_civico" placeholder="Numero Civico">
+                            </div>
                         </div>
-                        <div class="page-margin-top page-third page-right">
-                            <input type="text" id="numero_civico" placeholder="Numero Civico">
-                        </div>
-                        </div>
+                        <hr>
                         <div id="trattamentoDati" class="page-justify page-margin-top">
-                            <span>  Acconsenti all'informativa sul trattamento dei dati personali <a href="http://www.camera.it/parlam/leggi/deleghe/03196dl.htm"
-                        target=”_blank”>(leggi)</a> </span>
+                            <span> Autorizzo il trattamento dei miei dati personali ai sensi del Decreto Legislativo 30 giugno 2003, n. 196 “Codice in materia di protezione dei dati personali” <a href="http://www.camera.it/parlam/leggi/deleghe/03196dl.htm" target=”_blank”>(leggi)</a> </span>
                             <input type="checkbox" id="datiPrivacy">
-                            <br> <br>
+                            <br>
+                            <div class="page-margin-top">
                             <span> Altro </span>
                             <input type="checkbox" id="altro">
+                            </div>
                         </div>
                         <div id="InvioDati">
                             <input type="submit" id="button" value="Invia" class="page-dark-red page-margin-top">
