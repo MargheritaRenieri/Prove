@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Registrazione</title>
+    <style>
+        @import url(Stile.css);
+    </style>
+    <link rel="shortcut icon" type="image/x-png" href="unicam-scudo.png" />
+</head>
+
+<body>
+    <header class="logo page-display-container">
+    </header>
+    <div class="page-container">
+        <div>
+            <div class="page-third page-card-4" id="colonnaSx">
+                <ul class="page-margin-right">
+                    <li> <a href="Home.html"> Home </a> </li>
+                    <li> <a href="Login.html"> Login </a> </li>
+                    <li> <a href="RecuperoPassword.html"> Recupero password </a></li>
+                </ul>
+            </div>
+            <div class="page-container page-twothird">
+            <div class="page-left-align  page-card-4 div-center" id="colonnaDx">
+                <div id="ruolo" class="page-input">
+                    <h6> Ruolo all'interno dell'universita':</h6>
+                    <select name="ruolo">
+                        <option value="Studente">Studente</option>
+                        <option value="Docente">Docente</option>
+                        <option value="PTA">PTA</option>
+                        </select>
+                </div>
+                <br>
+                <div class="page-input">
+                    <form>
+                        <div>
+                            <label for="name">Nome:</label>
+                            <br>
+                            <input id="nome" type="text">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="surname">Cognome:</label>
+                            <br>
+                            <input type="text" id="cognome">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="cf">Codice Fiscale:</label>
+                            <br>
+                            <input type="text" id="cf">
+                        </div>
+                        <br>
+                        <div>
+                            <div class="page-half">
+                                <label for="address">Indirizzo: </label>
+                                <br>
+                                <input type="text" id="indirizzo">
+                            </div>
+                            <div class="page-left-align">
+                                <label for="civic_n"> N. Civico: </label>
+                                <br>
+                                <input style="width: 20%" type="number" id="ncivico">
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="city">Citta': </label>
+                            <br>
+                            <input type="text" id="città">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="cap">CAP: </label>
+                            <br>
+                            <input type="number" id="cap">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="phone_number">Numero Cellulare:</label>
+                            <br>
+                            <input type="tel" id="phone_n">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">e-mail:</label>
+                            <br>
+                            <input type="email" id="email">
+                        </div>
+                    </form>
+                </div>
+                <br>
+                <div id="trattamentoDati">
+                  <span>  Acconsenti all'informativa sul trattamento dei dati personali <a href="http://www.camera.it/parlam/leggi/deleghe/03196dl.htm"
+                        target=”_blank”>(leggi)</a> </span>
+                    <input type="checkbox" id="datiPrivacy">
+                    <br> <br>
+                    <span> Altro </span>
+                    <input type="checkbox" id="altro">
+                </div>
+                <br>
+                <div id="InvioDati">
+                    <input type="submit" id="button" value="Invia">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-center page-large page-dark-red page-margin-top">
+        <div id="DettagliPagina">
+            <p1>Unicam - Universita degli Studi di Camerino - 62032, Camerino MC - IT</p1>
+        </div>
+    </footer>
+</body>
+
+</html>
